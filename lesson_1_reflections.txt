@@ -1,0 +1,68 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    it displayed only the parts where there are differences so I focusted only on them.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    you can always look back to prevsious versions of your code to undo an unwanted apart
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    manually is more space efficiant as I save only version i may need, but in case of accidents automatic will be a saver.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Fill in your answer here
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+
+
+--------------------
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+pros : 
+1 - fine selecting the optimum separation between commits.
+2 - adding naming or describtion to the commit.
+
+cons: in case of forgetting and e.g. power down you may loose some work.
+
+--------------------
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+tbecause those automatic systems does not have the concept of reposetory, that mostly because they are meant to keep individual unrelated files, this is actually a problem I face with google sheets when I have multiple sheets reading values form each other as in this case the version history feature becomes much less useful or usable to me.
+
+--------------------
+How can you use the commands git log and git diff to view the history of files?
+
+git log displays all the commits, there IDs, dates, and a short desribtion, I can use two IDs  to compare the differences between them using
+git diff commit_id_old[1:n] commit_id_new[1:n] where n>=4
+
+---------------------
+How might using version control make you more confident to make changes that could break something?
+
+Using version control tools I can make changes as I want as I know Ican undo any undesired changes just by checking out an earlier version.
+
+-----------------------
+Reflect: How Do You Want to Use Git?
+
+that is something I will learn in this course
+
+-----------------------
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I may use one of my projects
